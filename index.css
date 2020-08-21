@@ -48,7 +48,7 @@ p {
 .time-line .time-line-body:after {
   content: '';
   width: 4px;
-  height: 65%;
+  height: 82%;
   background-color: #C7C7C7;
   position: absolute;
   left: -16px;
