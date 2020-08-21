@@ -48,11 +48,11 @@ p {
 .time-line .time-line-body:after {
   content: '';
   width: 4px;
-  height:30%;
+  height:20%;
   background-color: #C7C7C7;
   position: absolute;
   left: -4px;
-  top: 70px;
+  top: 50px;
 }
 
 .time-line .time-line-body .time-line-item {
