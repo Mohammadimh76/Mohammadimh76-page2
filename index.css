@@ -4,6 +4,9 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+#my{
+zoom: 100%;
+}
 
 %body {
  % font-family: sans-serif;
@@ -12,12 +15,107 @@
   %letter-spacing: 2px;
 %}
 
+body{
+    %background-color: #2f3331;
+    color: black;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
 p {
   line-height: 1.5;
   opacity: 0.7;
   font-size: 14px;
   font-weight: 300;
 }
+
+.container {
+    width: 80%;
+    background-color: #F2F3F7;
+    border-radius: 25px
+}
+
+.skillsBar {
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: black;
+    border-radius: 25px
+}
+
+
+.skillsBar .html {
+    width: 90%;
+    background-color: #2573A3;
+}
+
+.skillsBar .css {
+    width: 80%;
+    background-color: #2A80B9;
+}
+
+.skillsBar .js {
+    width: 65%;
+    background-color: #569AC7;
+}
+
+.skillsBar .web {
+    width: 85%;
+    background-color: #7EB4D6;
+}
+
+.skillsBar .gr {
+    width: 23%;
+    background-color: #A7CDE2;
+}
+
+.skillsBar .dm {
+    width: 48%;
+    background-color: #D4E6F3;
+}
+
+.skillsBar .percentage{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.skillsBar .reading{
+    width: 90%;
+    background-color: #CB4337;
+}
+
+.skillsBar .speaking{
+    width: 85%;
+    background-color: #EC7064;
+}
+
+.skillsBar .listening{
+    width: 80%;
+    background-color: #E94C3D;
+}
+
+.skillsBar .writing{
+    width: 48%;
+    background-color: #F1968B;
+}
+
+.skillsBar .verbalReasoning{
+    width: 90%;
+    background-color: #D68A12;
+}
+
+.skillsBar .analyticalWriting{
+    width: 80%;
+    background-color: #F39C11;
+}
+.skillsBar .quantitativeReasoning{
+    width: 85%;
+    background-color: #F7AF41;
+}
+
 
 .title-container {
   display: -webkit-box;
@@ -27,25 +125,168 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  margin-left: 75px;
-  margin-top: 10px;
+  margin-left: -50px;
+  margin-top: 30px;
   margin-bottom: 5px;
 }
 
-.time-line {
+.time-line-AboutMe {
   max-width: 1000px;
   color: #000000;
 }
 
-.time-line .time-line-body {
+.time-line-Education {
+  max-width: 1000px;
+  color: #000000;
+}
+
+.time-line-Experience {
+  max-width: 1000px;
+  color: #000000;
+}
+
+.time-line-Patent {
+  max-width: 1000px;
+  color: #000000;
+}
+
+.time-line-Publication {
+  max-width: 1000px;
+  color: #000000;
+}
+
+.time-line-Projects {
+  max-width: 1000px;
+  color: #000000;
+}
+
+.time-line-Honors {
+  max-width: 1000px;
+  color: #000000;
+}
+
+.time-line-Skills {
+  max-width: 1000px;
+  color: #000000;
+}
+
+.time-line-ContactMe {
+  max-width: 1000px;
+  color: #000000;
+}
+
+.time-line-AboutMe .time-line-body {
   position: relative;
   background-color: #FFFFFF;
-  margin-left: 120px;
+  margin-left: 10px;
   border-radius: 0 8px 8px 0;
   padding: 5px 0;
 }
 
-.time-line .time-line-body:after {
+.time-line-Education .time-line-body {
+  position: relative;
+  background-color: #FFFFFF;
+  margin-left: 10px;
+  border-radius: 0 8px 8px 0;
+  padding: 5px 0;
+}
+
+.time-line-Experience .time-line-body {
+  position: relative;
+  background-color: #FFFFFF;
+  margin-left: 10px;
+  border-radius: 0 8px 8px 0;
+  padding: 5px 0;
+}
+
+.time-line-Patent .time-line-body {
+  position: relative;
+  background-color: #FFFFFF;
+  margin-left: 10px;
+  border-radius: 0 8px 8px 0;
+  padding: 5px 0;
+}
+
+.time-line-Publication .time-line-body {
+  position: relative;
+  background-color: #FFFFFF;
+  margin-left: 10px;
+  border-radius: 0 8px 8px 0;
+  padding: 5px 0;
+}
+
+.time-line-Projects .time-line-body {
+  position: relative;
+  background-color: #FFFFFF;
+  margin-left: 10px;
+  border-radius: 0 8px 8px 0;
+  padding: 5px 0;
+}
+
+.time-line-Honors .time-line-body {
+  position: relative;
+  background-color: #FFFFFF;
+  margin-left: 10px;
+  border-radius: 0 8px 8px 0;
+  padding: 5px 0;
+}
+
+.time-line-Skills .time-line-body {
+  position: relative;
+  background-color: #FFFFFF;
+  margin-left: 10px;
+  border-radius: 0 8px 8px 0;
+  padding: 5px 0;
+}
+.time-line-ContactMe .time-line-body {
+  position: relative;
+  background-color: #FFFFFF;
+  margin-left: 10px;
+  border-radius: 0 8px 8px 0;
+  padding: 5px 0;
+}
+
+.time-line-AboutMe .time-line-body:after {
+  content: '';
+  width: 4px;
+  height: 62%;
+  background-color: #C7C7C7;
+  position: absolute;
+  left: -16px;
+  top: 70px;
+}
+
+.time-line-Education .time-line-body:after {
+  content: '';
+  width: 4px;
+  height: 65%;
+  background-color: #C7C7C7;
+  position: absolute;
+  left: -16px;
+  top: 70px;
+}
+
+.time-line-Experience .time-line-body:after {
+  content: '';
+  width: 4px;
+  height: 88%;
+  background-color: #C7C7C7;
+  position: absolute;
+  left: -16px;
+  top: 70px;
+}
+
+.time-line-Patent .time-line-body:after {
+  content: '';
+  width: 4px;
+  height: 83%;
+  background-color: #C7C7C7;
+  position: absolute;
+  left: -16px;
+  top: 70px;
+}
+
+.time-line-Publication .time-line-body:after {
   content: '';
   width: 4px;
   height: 82%;
@@ -55,11 +296,81 @@ p {
   top: 70px;
 }
 
-.time-line .time-line-body .time-line-item {
+.time-line-Projects .time-line-body:after {
+  content: '';
+  width: 4px;
+  height: 80%;
+  background-color: #C7C7C7;
+  position: absolute;
+  left: -16px;
+  top: 70px;
+}
+
+.time-line-Honors .time-line-body:after {
+  content: '';
+  width: 4px;
+  height: 68%;
+  background-color: #C7C7C7;
+  position: absolute;
+  left: -16px;
+  top: 70px;
+}
+
+.time-line-Skills .time-line-body:after {
+  content: '';
+  width: 4px;
+  height: 80%;
+  background-color: #C7C7C7;
+  position: absolute;
+  left: -16px;
+  top: 70px;
+}
+.time-line-ContactMe .time-line-body:after {
+  content: '';
+  width: 4px;
+  height: 65%;
+  background-color: #C7C7C7;
+  position: absolute;
+  left: -16px;
+  top: 70px;
+}
+
+.time-line-AboutMe .time-line-body .time-line-item {
   position: relative;
 }
 
-.time-line .time-line-body .time-line-item:after {
+.time-line-Education .time-line-body .time-line-item {
+  position: relative;
+}
+
+.time-line-Experience .time-line-body .time-line-item {
+  position: relative;
+}
+
+.time-line-Patent .time-line-body .time-line-item {
+  position: relative;
+}
+
+.time-line-Publication .time-line-body .time-line-item {
+  position: relative;
+}
+
+.time-line-Projects .time-line-body .time-line-item {
+  position: relative;
+}
+
+.time-line-Honors .time-line-body .time-line-item {
+  position: relative;
+}
+
+.time-line-Skills .time-line-body .time-line-item {
+  position: relative;
+}
+.time-line-ContactMe .time-line-body .time-line-item {
+  position: relative;
+}
+
+.time-line-AboutMe .time-line-body .time-line-item:after {
   content: '';
   width: 20px;
   height: 20px;
@@ -67,12 +378,115 @@ p {
   border: 4px solid #FE501F;
   background-color: #FFFFFF;
   position: absolute;
-  left: -1px;
+  left: -24px;
   top: 4px;
   z-index: 9;
 }
 
-.time-line .time-line-body .time-line-item .time {
+.time-line-Education .time-line-body .time-line-item:after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 4px solid #FE7902;
+  background-color: #FFFFFF;
+  position: absolute;
+  left: -24px;
+  top: 4px;
+  z-index: 9;
+}
+
+.time-line-Experience .time-line-body .time-line-item:after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 4px solid #FDA000;
+  background-color: #FFFFFF;
+  position: absolute;
+  left: -24px;
+  top: 4px;
+  z-index: 9;
+}
+
+.time-line-Patent .time-line-body .time-line-item:after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 4px solid #43B94F;
+  background-color: #FFFFFF;
+  position: absolute;
+  left: -24px;
+  top: 4px;
+  z-index: 9;
+}
+
+.time-line-Publication .time-line-body .time-line-item:after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 4px solid #01AE4F;
+  background-color: #FFFFFF;
+  position: absolute;
+  left: -24px;
+  top: 4px;
+  z-index: 9;
+}
+
+.time-line-Projects .time-line-body .time-line-item:after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 4px solid #63AE01;
+  background-color: #FFFFFF;
+  position: absolute;
+  left: -24px;
+  top: 4px;
+  z-index: 9;
+}
+
+.time-line-Honors .time-line-body .time-line-item:after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 4px solid #A3AE01;
+  background-color: #FFFFFF;
+  position: absolute;
+  left: -24px;
+  top: 4px;
+  z-index: 9;
+}
+
+.time-line-Skills .time-line-body .time-line-item:after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 4px solid #AE7A01;
+  background-color: #FFFFFF;
+  position: absolute;
+  left: -24px;
+  top: 4px;
+  z-index: 9;
+}
+.time-line-ContactMe .time-line-body .time-line-item:after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 4px solid #AE5601;
+  background-color: #FFFFFF;
+  position: absolute;
+  left: -24px;
+  top: 4px;
+  z-index: 9;
+}
+
+.time-line-AboutMe .time-line-body .time-line-item .time {
   position: absolute;
   color: #000000;
   right: 20px;
@@ -81,7 +495,78 @@ p {
   font-size: 13px;
 }
 
-.time-line .time-line-body .time-line-item .content {
+.time-line-Education .time-line-body .time-line-item .time {
+  position: absolute;
+  color: #000000;
+  right: 20px;
+  top: 4px;
+  opacity: 1;
+  font-size: 13px;
+}
+
+.time-line-Experience .time-line-body .time-line-item .time {
+  position: absolute;
+  color: #000000;
+  right: 20px;
+  top: 4px;
+  opacity: 1;
+  font-size: 13px;
+}
+
+.time-line-Patent .time-line-body .time-line-item .time {
+  position: absolute;
+  color: #000000;
+  right: 20px;
+  top: 4px;
+  opacity: 1;
+  font-size: 13px;
+}
+
+.time-line-Publication .time-line-body .time-line-item .time {
+  position: absolute;
+  color: #000000;
+  right: 20px;
+  top: 4px;
+  opacity: 1;
+  font-size: 13px;
+}
+
+.time-line-Projects .time-line-body .time-line-item .time {
+  position: absolute;
+  color: #000000;
+  right: 20px;
+  top: 4px;
+  opacity: 1;
+  font-size: 13px;
+}
+
+.time-line-Honors .time-line-body .time-line-item .time {
+  position: absolute;
+  color: #000000;
+  right: 20px;
+  top: 4px;
+  opacity: 1;
+  font-size: 13px;
+}
+
+.time-line-Skills .time-line-body .time-line-item .time {
+  position: absolute;
+  color: #000000;
+  right: 20px;
+  top: 4px;
+  opacity: 1;
+  font-size: 13px;
+}
+.time-line-ContactMe .time-line-body .time-line-item .time {
+  position: absolute;
+  color: #000000;
+  right: 20px;
+  top: 4px;
+  opacity: 1;
+  font-size: 13px;
+}
+
+.time-line-AboutMe .time-line-body .time-line-item .content {
   margin: 40px;
   padding-bottom: 5px;
   %border-bottom: 1px dashed #555;
@@ -90,9 +575,128 @@ p {
 
 }
 
-.time-line .time-line-body .time-line-item .content .title {
+.time-line-Education .time-line-body .time-line-item .content {
+  margin: 40px;
+  padding-bottom: 5px;
+  %border-bottom: 1px dashed #555;
+  font-size:15px;
+  color: #000000;
+
+}
+
+.time-line-Experience .time-line-body .time-line-item .content {
+  margin: 40px;
+  padding-bottom: 5px;
+  %border-bottom: 1px dashed #555;
+  font-size:15px;
+  color: #000000;
+
+}
+
+.time-line-Patent .time-line-body .time-line-item .content {
+  margin: 40px;
+  padding-bottom: 5px;
+  %border-bottom: 1px dashed #555;
+  font-size:15px;
+  color: #000000;
+
+}
+
+.time-line-Publication .time-line-body .time-line-item .content {
+  margin: 40px;
+  padding-bottom: 5px;
+  %border-bottom: 1px dashed #555;
+  font-size:15px;
+  color: #000000;
+
+}
+
+.time-line-Projects .time-line-body .time-line-item .content {
+  margin: 40px;
+  padding-bottom: 5px;
+  %border-bottom: 1px dashed #555;
+  font-size:15px;
+  color: #000000;
+
+}
+
+.time-line-Honors .time-line-body .time-line-item .content {
+  margin: 40px;
+  padding-bottom: 5px;
+  %border-bottom: 1px dashed #555;
+  font-size:15px;
+  color: #000000;
+
+}
+
+.time-line-Skills .time-line-body .time-line-item .content {
+  margin: 40px;
+  padding-bottom: 5px;
+  %border-bottom: 1px dashed #555;
+  font-size:15px;
+  color: #000000;
+
+}
+.time-line-ContactMe .time-line-body .time-line-item .content {
+  margin: 40px;
+  padding-bottom: 5px;
+  %border-bottom: 1px dashed #555;
+  font-size:15px;
+  color: #000000;
+
+}
+
+.time-line-AboutMe .time-line-body .time-line-item .content .title {
   font-weight:1 500;
   margin-bottom: 7px;
   color: #000000;
 }
+
+.time-line-Education .time-line-body .time-line-item .content .title {
+  font-weight:1 500;
+  margin-bottom: 7px;
+  color: #000000;
+}
+
+.time-line-Experience .time-line-body .time-line-item .content .title {
+  font-weight:1 500;
+  margin-bottom: 7px;
+  color: #000000;
+}
+
+.time-line-Patent .time-line-body .time-line-item .content .title {
+  font-weight:1 500;
+  margin-bottom: 7px;
+  color: #000000;
+}
+
+.time-line-Publication .time-line-body .time-line-item .content .title {
+  font-weight:1 500;
+  margin-bottom: 7px;
+  color: #000000;
+}
+
+.time-line-Projects .time-line-body .time-line-item .content .title {
+  font-weight:1 500;
+  margin-bottom: 7px;
+  color: #000000;
+}
+
+.time-line-Honors .time-line-body .time-line-item .content .title {
+  font-weight:1 500;
+  margin-bottom: 7px;
+  color: #000000;
+}
+
+.time-line-Skills .time-line-body .time-line-item .content .title {
+  font-weight:1 500;
+  margin-bottom: 7px;
+  color: #000000;
+}
+.time-line-ContactMe .time-line-body .time-line-item .content .title {
+  font-weight:1 500;
+  margin-bottom: 7px;
+  color: #000000;
+}
+
 /*# sourceMappingURL=index.css.map */
