@@ -83,36 +83,36 @@ p {
 }
 
 .skillsBar .reading{
-    width: 90%;
+    width: 0%;
     background-color: #CB4337;
 }
 
 .skillsBar .speaking{
-    width: 85%;
+    width: 0%;
     background-color: #EC7064;
 }
 
 .skillsBar .listening{
-    width: 80%;
+    width: 0%;
     background-color: #E94C3D;
 }
 
 .skillsBar .writing{
-    width: 48%;
+    width: 0%;
     background-color: #F1968B;
 }
 
 .skillsBar .verbalReasoning{
-    width: 90%;
+    width: 0%;
     background-color: #D68A12;
 }
 
 .skillsBar .analyticalWriting{
-    width: 80%;
+    width: 0%;
     background-color: #F39C11;
 }
 .skillsBar .quantitativeReasoning{
-    width: 85%;
+    width: 0%;
     background-color: #F7AF41;
 }
 
